@@ -1,0 +1,33 @@
+.header__fruta {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    background: var(--menu-color-bg);
+
+}
+
+.menu__ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu__link__lista {
+    padding: 0 .70rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.ancora__menu {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.ancora__menu:hover {
+    text-decoration: underline;
+}
+
+.ativo {
+    font-weight: bold;
+}
+

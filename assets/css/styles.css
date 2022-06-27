@@ -1,0 +1,20 @@
+:root {
+    --font-principal: Roboto, sans-serif;
+    --font-peso-principal: 100;
+    --cinza: #808080;
+    --cinza-sobre: #595959;
+    --branco: #fdfdfd;
+    --vinho: #8D0606;
+    --font-pacifico: Pacifico, cursive;
+    --menu-color-bg: #f9f9f9;
+    --receitas-bg: #e5e5e5;
+    --button-bg-hover: #620404;
+    --preto: #000;
+    --footer-bg: #C4C4C4;
+}
+
+body {
+    font-family: var(--font-principal);
+    font-weight: var(--font-peso-principal);
+    color: var(--cinza);
+}

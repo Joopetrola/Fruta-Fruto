@@ -1,0 +1,77 @@
+.about {
+    font-family: var(--font-pacifico);
+    padding: 1.5rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.about__titulo {
+    font-size: 3.1875rem;
+    color: var(--vinho);
+    margin-bottom: 1rem;
+}
+
+.about__paragrafo {
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: var(--cinza-sobre);
+    font-family: var(--font-principal);
+}
+
+.pessoas {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.pessoa__imagem {
+    background: red;
+    background-size: cover;
+    height: 100px;
+    background-position: center;
+    width: 100px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    padding: 5rem;
+}
+
+.pessoa__imagem--roberta {
+    background-image: url('../img/pessoas/roberta.jpg');
+
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../img/pessoas/marcela.jpg');
+
+}
+
+.pessoa__imagem--andreia {
+    background-image: url('../img/pessoas/andreia.jpg');
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoa__nome {
+    font-size: 32px;
+    padding: 1rem;
+    color: var(--vinho);
+}
+
+.pessoa__funcao {
+    font-family: var(--font-principal);
+    font-weight: 400;
+}
+
+.footer {
+    background: var(--footer-bg);
+    color: var(--branco);
+    font-family: var(--font-principal);
+    align-items: center;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 1.5rem;
+    text-align: right;
+}
