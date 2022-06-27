@@ -33,6 +33,7 @@
     background-repeat: no-repeat;
     border-radius: 100%;
     padding: 5rem;
+    margin: 0 auto;
 }
 
 .pessoa__imagem--roberta {
@@ -74,4 +75,56 @@
     font-size: 17px;
     padding: 1.5rem;
     text-align: right;
+}
+
+.about {
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .about {
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 2.5rem;
+    }
+}
+
+.about__titulo {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+
+}
+
+@media screen and (min-width: 0px) {
+    .about__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about__titulo {
+        font-size: 3.1875rem;
+    }
+}
+
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;
+    }
 }
